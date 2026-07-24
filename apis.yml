@@ -1,8 +1,11 @@
 aid: captain-fresh
 name: Captain Fresh
-description: 'Captain Fresh is a company surfaced as a portfolio company of accel, prosus-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Captain Fresh is a Bangalore, India based B2B technology company building sustainable
+  seafood and animal-protein supply chains worldwide, connecting fishermen, farmers, processors and
+  retailers through a technology-enabled sourcing, cold-chain and distribution marketplace. Backed by
+  Accel and Prosus Ventures, the company operates across India and international markets. It is tracked
+  in the API Evangelist network as a consumer / supply-chain company profile; no public developer API,
+  documentation, or developer portal was found during enrichment (a marketing website only).'
 url: https://raw.githubusercontent.com/api-evangelist/captain-fresh/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +14,31 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.captainfresh.in/favicon.png
 tags:
 - Company
 - Consumer
+- Seafood
+- Supply Chain
+- Marketplace
+- B2B
+- Food
+- Logistics
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/captain-fresh-domain-security.yml
 - type: Website
   url: https://www.captainfresh.in/
+- type: Support
+  name: Contact Us
+  url: https://www.captainfresh.in/contact-us
+- type: About
+  url: https://www.captainfresh.in/about-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
